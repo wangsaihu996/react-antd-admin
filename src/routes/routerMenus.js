@@ -5,23 +5,18 @@ const menu = [
         icon: 'home',
         auth: [1]
     },
-   
- 
-   
     {
-        title: '其它',
-        key: '/others',
-        icon: 'paper-clip',
+        key: '/form',
+        title: '表单',
+        icon: 'from',
         auth: [1],
         subs: [
-            { title: '进度条', key: '/others/progress', icon: '' },
-            { title: '动画', key: '/others/animation', icon: '' },
-            { title: '上传', key: '/others/upload', icon: '' },
-            { title: '富文本', key: '/others/editor', icon: '' },
-            { title: '404', key: '/404', icon: '' },
-            { title: '500', key: '/500', icon: '' }
+            { title: '基础表单', key: '/form/base-form', icon: '' },
+            { title: '步骤表单', key: '/form/step-form', icon: '' }
+
         ]
     },
+
     {
         title: '多级导航',
         key: '/one',

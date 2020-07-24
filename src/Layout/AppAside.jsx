@@ -10,11 +10,11 @@ const AppAside = props => {
     return (
         <Sider className='aside' collapsed={menuToggle}>
             <div className='logo'>
-                <a rel='noopener noreferrer' href='https://github.com/ltadpoles' target='_blank'>
+                {/* <a rel='noopener noreferrer' href='https://github.com/ltadpoles' target='_blank'> */}
                     <Icon type='github' style={{ fontSize: '3.8rem', color: '#fff' }} />
-                </a>
+                {/* </a> */}
             </div>
-            <CustomMenu menu={menu}></CustomMenu>
+            <CustomMenu menu={menu}></CustomMenu> 
         </Sider>
     )
 }
