@@ -1,9 +1,9 @@
 const menu = [
     {
         key: '/index',
-        title: '首页',
-        icon: 'home',
-        auth: [1]
+        title: '首页', //菜单导航title
+        icon: 'home', //图标
+        auth: [1]  //用户菜单权限
     },
     {
         title: '通用',
