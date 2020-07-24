@@ -6,7 +6,7 @@ import routes from '@/routes'
 import { menuToggleAction } from '@/store/actionCreators'
 // import echarts from 'echarts/lib/echarts'
 import avatar from '@/assets/images/user.jpg'
-import menu from './menu'
+import menu from '@/routes/menu'
 import '@/style/layout.scss'
 
 import AppHeader from './AppHeader.jsx'

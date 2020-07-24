@@ -35,11 +35,11 @@ const routes = [
 
     { path: '/public/button', exact: false, name: '按钮', component: ButtonView, auth: [1] },
     { path: '/public/icon', exact: false, name: '图标', component: IconView, auth: [1] },
-    // 导航
+    
     { path: '/nav/dropdown', exact: false, name: '下拉菜单', component: DropdownView },
     { path: '/nav/menu', exact: false, name: '导航菜单', component: MenuView },
     { path: '/nav/steps', exact: false, name: '步骤条', component: StepView },
-
+    
     { path: '/form/base-form', exact: false, name: '表单', component: FormBaseView },
     { path: '/form/step-form', exact: false, name: '表单', component: FormStepView },
     { path: '/show/table', exact: false, name: '表格', component: TableView },
