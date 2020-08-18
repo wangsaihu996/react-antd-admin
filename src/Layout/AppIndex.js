@@ -6,16 +6,16 @@ import routes from '@/routes'
 import { menuToggleAction } from '@/store/actionCreators'
 // import echarts from 'echarts/lib/echarts'
 import avatar from '@/assets/images/user.jpg'
-import menu from './menu'
+import menu from '@/routes/routerMenus'
 import '@/style/layout.scss'
 
-import AppHeader from './AppHeader.jsx'
-import AppAside from './AppAside.jsx'
-import AppFooter from './AppFooter.jsx'
+import AppHeader from './AppHeader.js'
+import AppAside from './AppAside.js'
+import AppFooter from './AppFooter.js'
 
 const { Content } = Layout
 
-class DefaultLayout extends Component {
+class AppIndex extends Component {
     state = {
         avatar,
         show: true,
@@ -132,5 +132,5 @@ export default withRouter(
     connect(
         stateToProp,
         dispatchToProp
-    )(DefaultLayout)
+    )(AppIndex)
 )
