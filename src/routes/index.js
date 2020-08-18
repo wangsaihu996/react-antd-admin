@@ -8,8 +8,9 @@ const Index = loadable(() => import(/* webpackChunkName: 'index' */ '@/views/Ind
 const FormBaseView = loadable(() => import(/* webpackChunkName: 'formBase' */ '@/views/FormView/FormBaseView'))
 const FormStepView = loadable(() => import(/* webpackChunkName: 'formStep' */ '@/views/FormView/FormStepView'))
 
+//用户
 
-
+const UserShowDataTableView = loadable(()=> import(/* webpackChunkName: 'formStep' */ '@/views/User/ShowData/TableView'))
 
 
 const Three = loadable(() => import(/* webpackChunkName: 'three' */ '@/views/TestView'))
@@ -22,10 +23,14 @@ const routes = [
     { path: '/form/step-form', exact: false, name: '表单', component: FormStepView },
     
     
+    // 用户demo
+   
+    { path:  '/user/showData/table', exact: false, name: '列表', component: UserShowDataTableView },
 
-    
 
     { path: '/one/two/three', exact: false, name: '三级', component: Three },
+
+
 
     { path: '/about', exact: false, name: '关于', component: About, auth: [1] }
 ]

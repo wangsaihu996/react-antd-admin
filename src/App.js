@@ -6,7 +6,7 @@ import './style/base.scss'
 import './style/App.scss'
 
 // 公共模块
-const AppIndex = loadable(() => import(/* webpackChunkName: 'default' */ './Layout'))
+const AppIndex = loadable(() => import(/* webpackChunkName: 'default' */ './Layout/AppIndex'))
 
 // 基础页面
 const View404 = loadable(() => import(/* webpackChunkName: '404' */ './views/Error/404'))

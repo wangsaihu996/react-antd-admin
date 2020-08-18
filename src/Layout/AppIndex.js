@@ -9,9 +9,9 @@ import avatar from '@/assets/images/user.jpg'
 import menu from '@/routes/routerMenus'
 import '@/style/layout.scss'
 
-import AppHeader from './AppHeader.jsx'
-import AppAside from './AppAside.jsx'
-import AppFooter from './AppFooter.jsx'
+import AppHeader from './AppHeader.js'
+import AppAside from './AppAside.js'
+import AppFooter from './AppFooter.js'
 
 const { Content } = Layout
 
